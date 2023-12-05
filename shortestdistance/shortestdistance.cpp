@@ -1,6 +1,6 @@
 /**
- * @file main.cpp
- * @author Jiaxu Xiao
+ * @file shortestdistance.cpp
+ * @author xuwithbean
  * @brief search for the shortest path in an undirected graph
  * @version 0.1
  * @date 2023-11-03
@@ -43,7 +43,7 @@ typedef int ShortPathTable[MAX];
 void undigraph(MGraph& G)
 {
 	G.vexnum = 13;
-	char ves[MAX][MAX]={"▒▒├┼","╥√╦о╦╝╘┤","╠┌╖╔╦■","═╝╩щ╣▌","╜╠╤з╓ў┬е","╗ю╢п╓╨╨─","─╧├┼","╧▄шў╠├","┤л╦═├┼4","┤л╦═├┼1","┤л╦═├┼3","┤л╦═├┼2","╬ў╟и╣▌"};
+	char ves[MAX][MAX]={"я┐╜я┐╜я┐╜я┐╜","я┐╜я┐╜╦о╦╝╘┤","я┐╜┌╖я┐╜я┐╜я┐╜","═╝я┐╜я┐╜я┐╜","я┐╜я┐╜╤зя┐╜я┐╜┬е","я┐╜ю╢пя┐╜я┐╜я┐╜я┐╜","я┐╜я┐╜я┐╜я┐╜","я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜","я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜4","я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜1","я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜3","я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜2","я┐╜я┐╜╟ия┐╜я┐╜"};
 	for(int i=0;i<13;i++)
 	{
 		for(int j=0;j<=strlen(ves[i]);j++)

@@ -1,6 +1,6 @@
 /**
- * @file mian.cpp
- * @author Jiaxu Xiao
+ * @file stringcompare.cpp
+ * @author xuwithbean
  * @brief the way of KMP_match to match two strings
  * @version 0.1
  * @date 2023-10-27

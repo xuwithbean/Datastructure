@@ -1,6 +1,6 @@
 /**
- * @file main.cpp
- * @author Jiaxu Xiao
+ * @file huffmancode.cpp
+ * @author xuwithbean
  * @brief huffman code and decode 
  * @version 0.1
  * @date 2023-11-09

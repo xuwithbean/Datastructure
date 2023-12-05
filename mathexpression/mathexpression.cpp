@@ -1,6 +1,6 @@
 /**
- * @file main.cpp
- * @author Jiaxu Xiao
+ * @file mathexpression.cpp
+ * @author xuwithbean
  * @brief count math expression
  * @version 0.1
  * @date 2023-10-20
