@@ -1,0 +1,7 @@
+使用方法为f12打开控制台，将以下代码复制进去：
+$('div.jqx-tabs-content.jqx-widget-content.jqx-rc-b > div.tab-content-1.bh-mt-8.jqx-tabs-content-element.jqx-rc-b > div.qmpjwj-list.wj-list.bh-mt-16 > div > div:nth-child(1) > div.card-bottom > div').trigger('click');
+setTimeout(() => {
+ $('#txwj-index-card > div').each((_,ele)=>{$(ele).find('label').eq(0).trigger('click');$(ele).find('textarea').val('好好好')});
+ $('#txwjFooter a.bh-btn-success').trigger('click');
+ $('div.bh-modal > div.bh-pop.bh-card.bh-card-lv4.bh-dialog-con > div.bh-dialog-center > div.bh-dialog-btnContainerBox > a.bh-dialog-btn.bh-bg-primary.bh-color-primary-5').trigger('click');
+}, 1000);
